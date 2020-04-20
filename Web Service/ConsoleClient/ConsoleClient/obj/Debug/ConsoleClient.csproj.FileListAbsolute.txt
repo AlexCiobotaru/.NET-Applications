@@ -1,0 +1,12 @@
+C:\Users\ciobo\Desktop\ConsoleClient\ConsoleClient\bin\Debug\ConsoleClient.exe.config
+C:\Users\ciobo\Desktop\ConsoleClient\ConsoleClient\bin\Debug\ConsoleClient.exe
+C:\Users\ciobo\Desktop\ConsoleClient\ConsoleClient\bin\Debug\ConsoleClient.pdb
+C:\Users\ciobo\Desktop\ConsoleClient\ConsoleClient\obj\Debug\ConsoleClient.csprojAssemblyReference.cache
+C:\Users\ciobo\Desktop\ConsoleClient\ConsoleClient\obj\Debug\ConsoleClient.exe
+C:\Users\ciobo\Desktop\ConsoleClient\ConsoleClient\obj\Debug\ConsoleClient.pdb
+F:\AC\AN III\SEM II\Industrial Informatics\Lab 2020\Lab4\ConsoleClient\ConsoleClient\bin\Debug\ConsoleClient.exe.config
+F:\AC\AN III\SEM II\Industrial Informatics\Lab 2020\Lab4\ConsoleClient\ConsoleClient\bin\Debug\ConsoleClient.exe
+F:\AC\AN III\SEM II\Industrial Informatics\Lab 2020\Lab4\ConsoleClient\ConsoleClient\bin\Debug\ConsoleClient.pdb
+F:\AC\AN III\SEM II\Industrial Informatics\Lab 2020\Lab4\ConsoleClient\ConsoleClient\obj\Debug\ConsoleClient.csprojAssemblyReference.cache
+F:\AC\AN III\SEM II\Industrial Informatics\Lab 2020\Lab4\ConsoleClient\ConsoleClient\obj\Debug\ConsoleClient.exe
+F:\AC\AN III\SEM II\Industrial Informatics\Lab 2020\Lab4\ConsoleClient\ConsoleClient\obj\Debug\ConsoleClient.pdb

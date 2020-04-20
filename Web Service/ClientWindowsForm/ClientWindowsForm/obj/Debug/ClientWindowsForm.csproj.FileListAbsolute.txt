@@ -1,0 +1,9 @@
+C:\Users\ciobo\Desktop\ClientWindowsForm\ClientWindowsForm\bin\Debug\ClientWindowsForm.exe.config
+C:\Users\ciobo\Desktop\ClientWindowsForm\ClientWindowsForm\bin\Debug\ClientWindowsForm.exe
+C:\Users\ciobo\Desktop\ClientWindowsForm\ClientWindowsForm\bin\Debug\ClientWindowsForm.pdb
+C:\Users\ciobo\Desktop\ClientWindowsForm\ClientWindowsForm\obj\Debug\ClientWindowsForm.csprojAssemblyReference.cache
+C:\Users\ciobo\Desktop\ClientWindowsForm\ClientWindowsForm\obj\Debug\ClientWindowsForm.Form1.resources
+C:\Users\ciobo\Desktop\ClientWindowsForm\ClientWindowsForm\obj\Debug\ClientWindowsForm.Properties.Resources.resources
+C:\Users\ciobo\Desktop\ClientWindowsForm\ClientWindowsForm\obj\Debug\ClientWindowsForm.csproj.GenerateResource.cache
+C:\Users\ciobo\Desktop\ClientWindowsForm\ClientWindowsForm\obj\Debug\ClientWindowsForm.exe
+C:\Users\ciobo\Desktop\ClientWindowsForm\ClientWindowsForm\obj\Debug\ClientWindowsForm.pdb

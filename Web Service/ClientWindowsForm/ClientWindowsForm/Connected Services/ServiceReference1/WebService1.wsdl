@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="CtoF">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="celsiusTemp" type="s:double" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CtoFResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="CtoFResult" type="s:double" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="FtoC">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="fahrenheitTemp" type="s:double" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="FtoCResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="FtoCResult" type="s:double" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="dateShow">
+        <s:complexType />
+      </s:element>
+      <s:element name="dateShowResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dateShowResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="itemList">
+        <s:complexType />
+      </s:element>
+      <s:element name="itemListResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="itemListResult" type="tns:ArrayOfString" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfString">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="string" nillable="true" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="leiToEuro">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="leiAmount" type="s:double" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="leiToEuroResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="leiToEuroResult" type="s:double" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="CtoFSoapIn">
+    <wsdl:part name="parameters" element="tns:CtoF" />
+  </wsdl:message>
+  <wsdl:message name="CtoFSoapOut">
+    <wsdl:part name="parameters" element="tns:CtoFResponse" />
+  </wsdl:message>
+  <wsdl:message name="FtoCSoapIn">
+    <wsdl:part name="parameters" element="tns:FtoC" />
+  </wsdl:message>
+  <wsdl:message name="FtoCSoapOut">
+    <wsdl:part name="parameters" element="tns:FtoCResponse" />
+  </wsdl:message>
+  <wsdl:message name="dateShowSoapIn">
+    <wsdl:part name="parameters" element="tns:dateShow" />
+  </wsdl:message>
+  <wsdl:message name="dateShowSoapOut">
+    <wsdl:part name="parameters" element="tns:dateShowResponse" />
+  </wsdl:message>
+  <wsdl:message name="itemListSoapIn">
+    <wsdl:part name="parameters" element="tns:itemList" />
+  </wsdl:message>
+  <wsdl:message name="itemListSoapOut">
+    <wsdl:part name="parameters" element="tns:itemListResponse" />
+  </wsdl:message>
+  <wsdl:message name="leiToEuroSoapIn">
+    <wsdl:part name="parameters" element="tns:leiToEuro" />
+  </wsdl:message>
+  <wsdl:message name="leiToEuroSoapOut">
+    <wsdl:part name="parameters" element="tns:leiToEuroResponse" />
+  </wsdl:message>
+  <wsdl:portType name="WebService1Soap">
+    <wsdl:operation name="CtoF">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Celsius to Fahrenheit Conversion</wsdl:documentation>
+      <wsdl:input message="tns:CtoFSoapIn" />
+      <wsdl:output message="tns:CtoFSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="FtoC">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Fahrenheit to Celsius Conversion</wsdl:documentation>
+      <wsdl:input message="tns:FtoCSoapIn" />
+      <wsdl:output message="tns:FtoCSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="dateShow">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Show the current date and time</wsdl:documentation>
+      <wsdl:input message="tns:dateShowSoapIn" />
+      <wsdl:output message="tns:dateShowSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="itemList">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Display a list of 5 elements</wsdl:documentation>
+      <wsdl:input message="tns:itemListSoapIn" />
+      <wsdl:output message="tns:itemListSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="leiToEuro">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Conversion from Lei to Euro</wsdl:documentation>
+      <wsdl:input message="tns:leiToEuroSoapIn" />
+      <wsdl:output message="tns:leiToEuroSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="WebService1Soap" type="tns:WebService1Soap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="CtoF">
+      <soap:operation soapAction="http://tempuri.org/CtoF" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="FtoC">
+      <soap:operation soapAction="http://tempuri.org/FtoC" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="dateShow">
+      <soap:operation soapAction="http://tempuri.org/dateShow" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="itemList">
+      <soap:operation soapAction="http://tempuri.org/itemList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="leiToEuro">
+      <soap:operation soapAction="http://tempuri.org/leiToEuro" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="WebService1Soap12" type="tns:WebService1Soap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="CtoF">
+      <soap12:operation soapAction="http://tempuri.org/CtoF" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="FtoC">
+      <soap12:operation soapAction="http://tempuri.org/FtoC" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="dateShow">
+      <soap12:operation soapAction="http://tempuri.org/dateShow" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="itemList">
+      <soap12:operation soapAction="http://tempuri.org/itemList" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="leiToEuro">
+      <soap12:operation soapAction="http://tempuri.org/leiToEuro" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="WebService1">
+    <wsdl:port name="WebService1Soap" binding="tns:WebService1Soap">
+      <soap:address location="https://localhost:44396/WebService1.asmx" />
+    </wsdl:port>
+    <wsdl:port name="WebService1Soap12" binding="tns:WebService1Soap12">
+      <soap12:address location="https://localhost:44396/WebService1.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>
