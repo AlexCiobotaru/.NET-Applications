@@ -1,0 +1,46 @@
+C:\Users\otudo\Google Drive\UTCN\AN 3\SEM 2\II\Lab\Lab3\Lab3T\Lab3T\obj\Debug\Lab3T.csprojResolveAssemblyReference.cache
+C:\Users\otudo\Google Drive\UTCN\AN 3\SEM 2\II\Lab\Lab3\Lab3T\Lab3T\obj\Debug\Lab3T.Form1.resources
+C:\Users\otudo\Google Drive\UTCN\AN 3\SEM 2\II\Lab\Lab3\Lab3T\Lab3T\obj\Debug\Lab3T.Properties.Resources.resources
+C:\Users\otudo\Google Drive\UTCN\AN 3\SEM 2\II\Lab\Lab3\Lab3T\Lab3T\obj\Debug\Lab3T.csproj.GenerateResource.cache
+C:\Users\otudo\Google Drive\UTCN\AN 3\SEM 2\II\Lab\Lab3\Lab3T\Lab3T\obj\Debug\Lab3T.csproj.CoreCompileInputs.cache
+C:\Users\otudo\Google Drive\UTCN\AN 3\SEM 2\II\Lab\Lab3\Lab3T\Lab3T\bin\Debug\Database1.mdf
+C:\Users\otudo\Google Drive\UTCN\AN 3\SEM 2\II\Lab\Lab3\Lab3T\Lab3T\bin\Debug\Database1_log.ldf
+C:\Users\otudo\Google Drive\UTCN\AN 3\SEM 2\II\Lab\Lab3\Lab3T\Lab3T\bin\Debug\Lab3T.exe.config
+C:\Users\otudo\Google Drive\UTCN\AN 3\SEM 2\II\Lab\Lab3\Lab3T\Lab3T\bin\Debug\Lab3T.exe
+C:\Users\otudo\Google Drive\UTCN\AN 3\SEM 2\II\Lab\Lab3\Lab3T\Lab3T\bin\Debug\Lab3T.pdb
+C:\Users\otudo\Google Drive\UTCN\AN 3\SEM 2\II\Lab\Lab3\Lab3T\Lab3T\obj\Debug\Lab3T.exe
+C:\Users\otudo\Google Drive\UTCN\AN 3\SEM 2\II\Lab\Lab3\Lab3T\Lab3T\obj\Debug\Lab3T.pdb
+C:\Users\otudo\Desktop\Lab3T\Lab3T\bin\Debug\Database1.mdf
+C:\Users\otudo\Desktop\Lab3T\Lab3T\bin\Debug\Database1_log.ldf
+C:\Users\otudo\Desktop\Lab3T\Lab3T\bin\Debug\Lab3T.exe.config
+C:\Users\otudo\Desktop\Lab3T\Lab3T\bin\Debug\Lab3T.exe
+C:\Users\otudo\Desktop\Lab3T\Lab3T\bin\Debug\Lab3T.pdb
+C:\Users\otudo\Desktop\Lab3T\Lab3T\obj\Debug\Lab3T.csprojResolveAssemblyReference.cache
+C:\Users\otudo\Desktop\Lab3T\Lab3T\obj\Debug\Lab3T.Form1.resources
+C:\Users\otudo\Desktop\Lab3T\Lab3T\obj\Debug\Lab3T.Properties.Resources.resources
+C:\Users\otudo\Desktop\Lab3T\Lab3T\obj\Debug\Lab3T.csproj.GenerateResource.cache
+C:\Users\otudo\Desktop\Lab3T\Lab3T\obj\Debug\Lab3T.csproj.CoreCompileInputs.cache
+C:\Users\otudo\Desktop\Lab3T\Lab3T\obj\Debug\Lab3T.exe
+C:\Users\otudo\Desktop\Lab3T\Lab3T\obj\Debug\Lab3T.pdb
+F:\AC\AN III\SEM II\Industrial Informatics\Lab 2018\Lab3\Lab3T\Lab3T\bin\Debug\Database1.mdf
+F:\AC\AN III\SEM II\Industrial Informatics\Lab 2018\Lab3\Lab3T\Lab3T\bin\Debug\Database1_log.ldf
+F:\AC\AN III\SEM II\Industrial Informatics\Lab 2018\Lab3\Lab3T\Lab3T\bin\Debug\Lab3T.exe.config
+F:\AC\AN III\SEM II\Industrial Informatics\Lab 2018\Lab3\Lab3T\Lab3T\bin\Debug\Lab3T.exe
+F:\AC\AN III\SEM II\Industrial Informatics\Lab 2018\Lab3\Lab3T\Lab3T\bin\Debug\Lab3T.pdb
+F:\AC\AN III\SEM II\Industrial Informatics\Lab 2018\Lab3\Lab3T\Lab3T\obj\Debug\Lab3T.csprojAssemblyReference.cache
+F:\AC\AN III\SEM II\Industrial Informatics\Lab 2018\Lab3\Lab3T\Lab3T\obj\Debug\Lab3T.Form1.resources
+F:\AC\AN III\SEM II\Industrial Informatics\Lab 2018\Lab3\Lab3T\Lab3T\obj\Debug\Lab3T.Properties.Resources.resources
+F:\AC\AN III\SEM II\Industrial Informatics\Lab 2018\Lab3\Lab3T\Lab3T\obj\Debug\Lab3T.csproj.GenerateResource.cache
+F:\AC\AN III\SEM II\Industrial Informatics\Lab 2018\Lab3\Lab3T\Lab3T\obj\Debug\Lab3T.exe
+F:\AC\AN III\SEM II\Industrial Informatics\Lab 2018\Lab3\Lab3T\Lab3T\obj\Debug\Lab3T.pdb
+F:\AC\AN III\SEM II\Industrial Informatics\Lab 2020\Lab3\Lab3T\Lab3T\bin\Debug\Database1.mdf
+F:\AC\AN III\SEM II\Industrial Informatics\Lab 2020\Lab3\Lab3T\Lab3T\bin\Debug\Database1_log.ldf
+F:\AC\AN III\SEM II\Industrial Informatics\Lab 2020\Lab3\Lab3T\Lab3T\bin\Debug\Lab3T.exe.config
+F:\AC\AN III\SEM II\Industrial Informatics\Lab 2020\Lab3\Lab3T\Lab3T\bin\Debug\Lab3T.exe
+F:\AC\AN III\SEM II\Industrial Informatics\Lab 2020\Lab3\Lab3T\Lab3T\bin\Debug\Lab3T.pdb
+F:\AC\AN III\SEM II\Industrial Informatics\Lab 2020\Lab3\Lab3T\Lab3T\obj\Debug\Lab3T.csprojAssemblyReference.cache
+F:\AC\AN III\SEM II\Industrial Informatics\Lab 2020\Lab3\Lab3T\Lab3T\obj\Debug\Lab3T.Form1.resources
+F:\AC\AN III\SEM II\Industrial Informatics\Lab 2020\Lab3\Lab3T\Lab3T\obj\Debug\Lab3T.Properties.Resources.resources
+F:\AC\AN III\SEM II\Industrial Informatics\Lab 2020\Lab3\Lab3T\Lab3T\obj\Debug\Lab3T.csproj.GenerateResource.cache
+F:\AC\AN III\SEM II\Industrial Informatics\Lab 2020\Lab3\Lab3T\Lab3T\obj\Debug\Lab3T.exe
+F:\AC\AN III\SEM II\Industrial Informatics\Lab 2020\Lab3\Lab3T\Lab3T\obj\Debug\Lab3T.pdb
